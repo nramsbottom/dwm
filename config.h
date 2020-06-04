@@ -104,7 +104,8 @@ static Key keys[] = {
 	{ 0, XF86XK_AudioPlay,		spawn,		SHCMD("mpc play") },
 	{ 0, XF86XK_AudioStop,		spawn,		SHCMD("mpc stop") },
 	{ 0, XF86XK_AudioRewind,	spawn,		SHCMD("mpc seek -10") },
-	{ 0, XF86XK_AudioForward,	spawn,		SHCMD("mpc seek +10") }
+	{ 0, XF86XK_AudioForward,	spawn,		SHCMD("mpc seek +10") },
+	{ 0, XF86XK_AudioMute,          spawn,          SHCMD("pamixer --toggle-mute") },
 };
 
 /* button definitions */
