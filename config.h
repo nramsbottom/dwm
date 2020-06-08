@@ -89,7 +89,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_equal,  spawn,          SHCMD("pamixer --allow-boost -i 10") },
 	{ MODKEY,                       XK_w,      spawn,          SHCMD("$BROWSER") },
 	{ MODKEY,			XK_F1,     spawn,          SHCMD("start-record-screen") },
-	{ MODKEY|ShiftMask,             XK_F1,     spawn,          SHCMD("stop-record-screen") },
+	{ MODKEY,                       XK_F2,     spawn,          SHCMD("stop-record-screen") },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
